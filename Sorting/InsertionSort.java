@@ -14,7 +14,10 @@ public class InsertionSort {
     }
 
     private static void insertionSort(int[] ar) {
-
+        /*
+         * Time Complexity: O(N^2)
+         * Space Complexity: O(1)
+         */
         for (int j = 1; j < ar.length; j++) {
             int curr = ar[j];
             int i = j - 1;
